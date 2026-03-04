@@ -23,13 +23,12 @@ O uso da máquina virtual permite simular um ambiente isolado de desenvolvimento
 
 Estrutura do Projeto
 mysql_lab/
-│
-├── database_schema.sql   → Criação das tabelas e restrições
-├── triggers.sql          → Restrições
-├── sample_data.sql       → Dados fictícios para testes
-├── queries.sql           → Consultas e análises realizadas
-├── updates.sql           → Manipulação e atualização de dados
-└── README.md             → Documentação do projeto
+  - `database_schema.sql` → Criação das tabelas e restrições
+  - `triggers.sql` → Restrições
+  - `sample_data.sql` → Dados fictícios para testes
+  - `queries.sql` → Consultas e análises realizadas
+  - `updates.sql` → Manipulação e atualização de dados
+  - `README.md` → Documentação do projeto
 
 Cenário Modelado
 Banco de dados relacional simulando um ambiente de vendas (e-commerce), contendo:
