@@ -22,13 +22,16 @@ Ambiente Utilizado
 O uso da máquina virtual permite simular um ambiente isolado de desenvolvimento, aproximando a prática de um cenário profissional.
 
 Estrutura do Projeto
-- `database_schema.sql` → Criação da estrutura do banco
-- `queries.sql` → Consultas e análises realizadas
-- `updates.sql` → Manipulação e atualização de dados
-- `views.sql` → Criação de relatórios (quando aplicável)
+mysql_lab/
+│
+├── database_schema.sql   → Criação das tabelas e restrições
+├── triggers.sql          → Restrições
+├── sample_data.sql       → Dados fictícios para testes
+├── queries.sql           → Consultas e análises realizadas
+├── updates.sql           → Manipulação e atualização de dados
+└── README.md             → Documentação do projeto
 
 Cenário Modelado
-
 Banco de dados relacional simulando um ambiente de vendas (e-commerce), contendo:
 - Clientes
 - Categorias
