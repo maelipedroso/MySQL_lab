@@ -22,6 +22,7 @@ Ambiente Utilizado
 O uso da máquina virtual permite simular um ambiente isolado de desenvolvimento, aproximando a prática de um cenário profissional.
 
 Estrutura do Projeto
+
 mysql_lab/
   - `database_schema.sql` → Criação das tabelas e restrições
   - `triggers.sql` → Restrições
