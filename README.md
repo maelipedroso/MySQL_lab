@@ -32,6 +32,7 @@ mysql_lab/
   - `README.md` → Documentação do projeto
 
 Cenário Modelado
+
 Banco de dados relacional simulando um ambiente de vendas (e-commerce), contendo:
 - Clientes
 - Categorias
